@@ -26,11 +26,11 @@ git clone https://github.com/j19z/ai-chatbot-ollama.git
 ```bash
 python -m venv venv
 ```
-# For Windows
+**For Windows**
 ```bash
 venv\Scripts\activate
 ```
-# For Unix or MacOS
+**For Unix or MacOS**
 ```bash
 source venv/bin/activate
 ```
@@ -60,15 +60,15 @@ ollama create pirate -f ./Modelfile
 streamlit run app.py
 ```
 
-### Usage
+## Usage
 Upon running the application, you'll be presented with a dropdown menu to select the chatbot's persona. After selecting a persona, you can start interacting with the chatbot by typing your messages into the chat input box. The chatbot, utilizing the selected persona and the "mistral" model, will generate and display responses.
 
-### Note on Deployment
+## Note on Deployment
 Due to the reliance on Ollama and the requirement for specific configurations, this chatbot is designed to run locally. Currently, it cannot be hosted on Streamlit Cloud as it requires direct access to the Ollama API, which is not feasible within the Streamlit Cloud environment.
 
-### Limitations
+## Limitations
 The chatbot's response capabilities are bound by the "mistral" model's limitations and the specific configurations set for Ollama.
 All API requests are made directly to a locally configured Ollama server.
 
-### Contributing
+## Contributing
 Contributions, suggestions, and bug reports are welcome! Feel free to fork the repository, make changes, and submit pull requests with your improvements.
